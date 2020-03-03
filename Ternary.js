@@ -10,3 +10,11 @@ function ageVerification(age) {
   
   ageVerification(30); 
   ageVerification(10); 
+
+  // Integrating Conditionals into JavaScript strings with Ternary Operators
+
+const page = 'Home';
+console.log(`class = ${ page === 'Home' ? 'master-layout' : 'secondary-layout'}`)
+
+const page = 'about';
+console.log(`class = ${ page === 'Home' ? 'master-layout' : 'secondary-layout'}`)
